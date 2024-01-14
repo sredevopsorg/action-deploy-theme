@@ -1,4 +1,4 @@
-name: 'Deploy Ghost Theme'
+name: 'Deploy Ghost Theme Fork'
 description: 'Build & deploy a theme to your Ghost site'
 branding:
   icon: 'cloud-lightning'

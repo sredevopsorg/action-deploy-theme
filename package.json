@@ -1,6 +1,6 @@
 {
-  "name": "action-deploy-theme",
-  "version": "1.6.4",
+  "name": "action-deploy-theme-fork",
+  "version": "1.6.6",
   "repository": "git@github.com:sredevopsdev/action-deploy-theme.git",
   "author": "Ghost Foundation",
   "license": "MIT",

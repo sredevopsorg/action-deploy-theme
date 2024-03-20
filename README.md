@@ -1,3 +1,4 @@
+# Note: This is a fork from Ghost, intended to be used to deploy "securely" our themes. 
 <p align="center">
   <a href="https://ghost.org">
     <img src="https://user-images.githubusercontent.com/65487235/157884383-1b75feb1-45d8-4430-b636-3f7e06577347.png" width="200px" alt="Ghost" />
@@ -5,9 +6,6 @@
 </p>
 <h3 align="center">Deploy your Ghost Theme from GitHub</h3>
 <p align="center">
-    <a href="https://github.com/marketplace/actions/deploy-ghost-theme">
-        <img src="https://img.shields.io/badge/view-action-blue.svg" alt="View Action" />
-    </a>
     <a href="https://github.com/TryGhost/action-deploy-theme/contributors/">
         <img src="https://img.shields.io/github/contributors/TryGhost/action-deploy-theme.svg" alt="Contributors" />
     </a>
@@ -56,11 +54,11 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Deploy Ghost Theme
-        uses: TryGhost/action-deploy-theme@v1
+        uses: sredevopsorg/action-deploy-theme@main
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}

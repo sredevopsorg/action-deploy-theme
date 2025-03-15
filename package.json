@@ -1,6 +1,6 @@
 {
   "name": "action-deploy-theme-fork",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "repository": "git@github.com:sredevopsorg/action-deploy-theme.git",
   "author": "Ghost Foundation",
   "license": "MIT",
@@ -23,6 +23,6 @@
     "@actions/core": "1.11.1",
     "@actions/exec": "1.1.1",
     "@tryghost/admin-api": "1.13.12",
-    "@vercel/ncc": "^0.38.2"
+    "@vercel/ncc": "^0.38.3"
   }
 }
